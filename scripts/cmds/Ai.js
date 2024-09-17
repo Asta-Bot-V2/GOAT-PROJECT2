@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const GPT_API_URL = 'https://sandipapi.onrender.com/gpt';
-const PREFIXES = ['ai','yanzu','ask','gpt','!ai','?ai','-ai','+ai','#ai','&ai','×ai'];
+const PREFIXES = ['.ai','asta,'ask','gpt','!ai','?ai','-ai','+ai','#ai','&ai','×ai'];
 const horizontalLine = "━━━━━━━━━━━━━━━";
 
 module.exports = {
