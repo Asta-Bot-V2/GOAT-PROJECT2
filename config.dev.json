@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "+2349139977668",
-    "password": "liebe@0123",
+    "email": "",
+    "password": "",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -83,7 +83,7 @@
     "ignoreEvents": "",
     "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
   },
-  "autoRefreshFbstate": true,
+  "autoRefreshFbstate": false,
   "autoReloginWhenChangeAccount": false,
   "autoRestartWhenListenMqttError": false,
   "restartListenMqtt": {
