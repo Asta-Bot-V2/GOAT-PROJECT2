@@ -15,8 +15,8 @@ const { openAIUsing, openAIHistory } = global.temp;
 
 module.exports = {
 	config: {
-		name: "sammy",
-    aliases: ["Sæmmy", "Sam", "sam", "ai", "Ai"],
+		name: "A",
+    aliases: ["as", "a",],
     usePrefix: false,
 		version: "1.2",
 		author: "NTKhang",
@@ -43,7 +43,7 @@ module.exports = {
 
 	langs: {
 		vi: {
-			apiKeyEmpty: "╔════ஜ۩۞۩ஜ═══╗\n\nPlease provide api key \nfor openai at file \nscripts/cmds/sammy.js\n\n╚════ஜ۩۞۩ஜ═══╝",
+			apiKeyEmpty: "╔════ஜ۩۞۩ஜ═══╗\n\nPlease provide api key\n\n╚════ஜ۩۞۩ஜ═══╝",
 			invalidContentDraw: "╔════ஜ۩۞۩ஜ═══╗\n\nPlease enter what you\n want to draw\n\n╚════ஜ۩۞۩ஜ═══╝",
 			yourAreUsing: "╔════ஜ۩۞۩ஜ═══╗\n\nYou are using gpt chat,\n please wait to come back after \nthe previous request ends\n\n╚════ஜ۩۞۩ஜ═══╝",
 			processingRequest: "╔════ஜ۩۞۩ஜ═══╗\n\nProcessing your request,\n it may take a few minutes,\n please wait\n\n╚════ஜ۩۞۩ஜ═══╝",
@@ -52,7 +52,7 @@ module.exports = {
 			clearHistory: "╔════ஜ۩۞۩ஜ═══╗\n\nDeleted your chat\n history with sammy\n\n╚════ஜ۩۞۩ஜ═══╝"
 		},
 		en: {
-			apiKeyEmpty: "╔════ஜ۩۞۩ஜ═══╗\n\nPlease provide apikey,\n for openai at file scripts/cmds/sammy.js\n\n╚════ஜ۩۞۩ஜ═══╝",
+			apiKeyEmpty: "╔════ஜ۩۞۩ஜ═══╗\n\nPlease provide an apikey\n\n╚════ஜ۩۞۩ஜ═══╝",
 			invalidContentDraw: "╔════ஜ۩۞۩ஜ═══╗\n\nPlease enter the content\n you want to draw\n\n╚════ஜ۩۞۩ஜ═══╝",
 			yourAreUsing: "╔════ஜ۩۞۩ஜ═══╗\n\nYou are using gpt chat, \nplease wait until the previous request ends\n\n╚════ஜ۩۞۩ஜ═══╝",
 			processingRequest: "╔════ஜ۩۞۩ஜ═══╗\n\nProcessing your request, \this process may take a few minutes,\n please wait\n\n╚════ஜ۩۞۩ஜ═══╝",
